@@ -1,0 +1,80 @@
+@HOST = http://localhost:8080/api/user
+
+###
+GET {{HOST}}/all
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoibnJHM2lDNlVUQWxXcmVIIn0sImlhdCI6MTc1NTA0Nzc1NH0.jY21CI59_CKsZ7rD7Wj0smBrOgpfeWlBY0ctG1yFbRg
+
+###
+GET {{HOST}}/single/Mw1Qs9XkVr3E
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiTXcxUXM5WGtWcjNFIiwiZmlyc3RuYW1lIjoiRGFuaWVsIiwibGFzdG5hbWUiOiJIYXJyaXMiLCJ1c2VybmFtZSI6ImRhbmllbC5oYXJyaXM3OSIsImFnZSI6MzksImVtYWlsIjoiZGFuaWVsLmhhcnJpc0BleGFtcGxlLmNvbSIsInJvbGUiOiJjb2FjaCIsImlzQWRtaW4iOnRydWV9LCJpYXQiOjE3NDc1MDEzNDF9.GZXw5mlRkbAv24j0nSIZRp_o1K7icROJR5zf06NAbLM
+
+
+###
+POST {{HOST}}/create
+Content-Type: application/json
+
+{
+    "firstname": "Ibrahem",
+    "lastname": "Abu Shah",
+    "age": 24,
+    "gender": "Male",
+    "email": "ibrahemmad91@gmail.com",
+    "phone": "0503207732",
+    "password": "Joker525252",
+    "imageBase64": "rewew",
+    "isCoach": true
+}
+###
+
+
+###
+POST {{HOST}}/login
+Content-Type: application/json
+
+{
+    "authentication": "ibrahemmad91@gmail.com",
+    "password": "Joker525252"
+}
+###
+
+
+###
+PUT {{HOST}}/update/7LoWShsmzkc9uYW
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiN0xvV1Noc216a2M5dVlXIiwidXNlcm5hbWUiOiJpYnJhaGVtNjc4IiwiZmlyc3RuYW1lIjoiSWJyYWhlbSIsImxhc3RuYW1lIjoiQWJ1IFNoYWgiLCJhZ2UiOjI0LCJnZW5kZXIiOiJNYWxlIiwiZW1haWwiOiJpYnJhaGVtbWFkOTFAZ21haWwuY29tIiwicGhvbmUiOiIwNTAzMjA3NzMyIiwiaXNDb2FjaCI6dHJ1ZSwiaW1hZ2VCYXNlNjQiOiJyZXdldyJ9LCJpYXQiOjE3NTQ5MTk1NTJ9.p4CMVEEOeM7CPmhVzxeKoHbjHTn_djf6hUoRN-k-Gqw
+
+{
+    "password": "Joker525252"
+}
+###
+
+
+###
+DELETE {{HOST}}/delete/lFvYN8yPDVys21m
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoibEZ2WU44eVBEVnlzMjFtIn0sImlhdCI6MTc1NDk1NDkzN30.H6CB5sljfY2kqEQ6IFjmvA_C9U1XdYctdv0CMff9gEg
+
+
+###
+GET {{HOST}}/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoid3hmS0RPZHFTU2U5UFRlIn0sImlhdCI6MTc1NDk1MDU0Mn0.Q95jn7p36ETtM_6Lm-qUi8_7EdG700Q6Qv7RiiXHA-A
+
+
+###
+POST http://localhost:8080/api/user/recovery
+Content-Type: application/json
+
+{
+  "email": "ibrahemmad91@gmail.com",
+  "recoveryCode": "123456"
+}
+
+
+###
+PUT http://localhost:8080/api/user/update
+Content-Type: application/json
+
+{
+  "email": "ibrahemmad91@gmail.com",
+  "password": "Joker525252"
+}

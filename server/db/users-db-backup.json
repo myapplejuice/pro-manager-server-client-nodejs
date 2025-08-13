@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "firstname": "Emily",
+        "lastname": "Johnson",
+        "username": "emily.johnson58",
+        "age": 29,
+        "email": "emily.johnson@example.com",
+        "password": "w3Qz!t6vPp",
+        "role": "athlete",
+        "isAdmin": false
+    },
+    {
+        "id": 2,
+        "firstname": "Michael",
+        "lastname": "Brown",
+        "username": "michael.brown92",
+        "age": 35,
+        "email": "michael.brown@example.com",
+        "password": "N4v@5LmHq8",
+        "role": "coach",
+        "isAdmin": true
+    },
+    {
+        "id": 3,
+        "firstname": "Sophia",
+        "lastname": "Davis",
+        "username": "sophia.davis17",
+        "age": 24,
+        "email": "sophia.davis@example.com",
+        "password": "Gf9#zTr1Op",
+        "role": "athlete",
+        "isAdmin": false
+    },
+    {
+        "id": 4,
+        "firstname": "James",
+        "lastname": "Miller",
+        "username": "james.miller42",
+        "age": 40,
+        "email": "james.miller@example.com",
+        "password": "qW2%kJu8Yr",
+        "role": "coach",
+        "isAdmin": true
+    },
+    {
+        "id": 5,
+        "firstname": "Ava",
+        "lastname": "Garcia",
+        "username": "ava.garcia31",
+        "age": 27,
+        "email": "ava.garcia@example.com",
+        "password": "fP7&Lm1rTz",
+        "role": "athlete",
+        "isAdmin": false
+    },
+    {
+        "id": 6,
+        "firstname": "William",
+        "lastname": "Martinez",
+        "username": "william.martinez19",
+        "age": 45,
+        "email": "william.martinez@example.com",
+        "password": "Ht3*Za8rWq",
+        "role": "coach",
+        "isAdmin": false
+    },
+    {
+        "id": 7,
+        "firstname": "Isabella",
+        "lastname": "Rodriguez",
+        "username": "isabella.rodriguez26",
+        "age": 30,
+        "email": "isabella.rodriguez@example.com",
+        "password": "Mf2@Wl9oRu",
+        "role": "athlete",
+        "isAdmin": true
+    },
+    {
+        "id": 8,
+        "firstname": "Ethan",
+        "lastname": "Wilson",
+        "username": "ethan.wilson74",
+        "age": 22,
+        "email": "ethan.wilson@example.com",
+        "password": "Bv4#Yr7lKm",
+        "role": "coach",
+        "isAdmin": false
+    },
+    {
+        "id": 9,
+        "firstname": "Mia",
+        "lastname": "Anderson",
+        "username": "mia.anderson83",
+        "age": 28,
+        "email": "mia.anderson@example.com",
+        "password": "Zq5@Up6xTf",
+        "role": "athlete",
+        "isAdmin": false
+    },
+    {
+        "id": 10,
+        "firstname": "Logan",
+        "lastname": "Thomas",
+        "username": "logan.thomas65",
+        "age": 33,
+        "email": "logan.thomas@example.com",
+        "password": "Tk1%Sm9wQx",
+        "role": "coach",
+        "isAdmin": true
+    },
+    {
+        "id": 11,
+        "firstname": "Charlotte",
+        "lastname": "Taylor",
+        "username": "charlotte.taylor12",
+        "age": 26,
+        "email": "charlotte.taylor@example.com",
+        "password": "Wn7@Yp2rKi",
+        "role": "athlete",
+        "isAdmin": false
+    },
+    {
+        "id": 12,
+        "firstname": "Benjamin",
+        "lastname": "Lee",
+        "username": "benjamin.lee93",
+        "age": 38,
+        "email": "benjamin.lee@example.com",
+        "password": "Yf6&Pr3xLt",
+        "role": "coach",
+        "isAdmin": false
+    },
+    {
+        "id": 13,
+        "firstname": "Amelia",
+        "lastname": "Hernandez",
+        "username": "amelia.hernandez44",
+        "age": 21,
+        "email": "amelia.hernandez@example.com",
+        "password": "Rg3@Vn7wEp",
+        "role": "athlete",
+        "isAdmin": false
+    },
+    {
+        "id": 14,
+        "firstname": "Jacob",
+        "lastname": "Lopez",
+        "username": "jacob.lopez28",
+        "age": 41,
+        "email": "jacob.lopez@example.com",
+        "password": "Np5#Xm6oYt",
+        "role": "coach",
+        "isAdmin": true
+    },
+    {
+        "id": 15,
+        "firstname": "Harper",
+        "lastname": "Gonzalez",
+        "username": "harper.gonzalez53",
+        "age": 25,
+        "email": "harper.gonzalez@example.com",
+        "password": "Jk8%Wz4mVp",
+        "role": "athlete",
+        "isAdmin": false
+    },
+    {
+        "id": 16,
+        "firstname": "Alexander",
+        "lastname": "Perez",
+        "username": "alexander.perez36",
+        "age": 36,
+        "email": "alexander.perez@example.com",
+        "password": "Ts2!Lm9nQv",
+        "role": "coach",
+        "isAdmin": true
+    },
+    {
+        "id": 17,
+        "firstname": "Evelyn",
+        "lastname": "White",
+        "username": "evelyn.white47",
+        "age": 23,
+        "email": "evelyn.white@example.com",
+        "password": "Hq6&Zr3yXw",
+        "role": "athlete",
+        "isAdmin": false
+    },
+    {
+        "id": 18,
+        "firstname": "Daniel",
+        "lastname": "Harris",
+        "username": "daniel.harris79",
+        "age": 39,
+        "email": "daniel.harris@example.com",
+        "password": "Mk4@Qw5pYe",
+        "role": "coach",
+        "isAdmin": true
+    },
+    {
+        "id": 19,
+        "firstname": "Abigail",
+        "lastname": "Clark",
+        "username": "abigail.clark18",
+        "age": 32,
+        "email": "abigail.clark@example.com",
+        "password": "Zw3!Nt7xVq",
+        "role": "athlete",
+        "isAdmin": false
+    },
+    {
+        "id": 20,
+        "firstname": "Matthew",
+        "lastname": "Lewis",
+        "username": "matthew.lewis66",
+        "age": 37,
+        "email": "matthew.lewis@example.com",
+        "password": "Xc9#Mr5zLu",
+        "role": "coach",
+        "isAdmin": false
+    }
+]
