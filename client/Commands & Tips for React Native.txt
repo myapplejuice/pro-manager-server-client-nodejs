@@ -1,0 +1,29 @@
+------------DEPENDENCIES------------
+npm install node-modules
+npm install @react-native-async-storage/async-storage
+npx expo install @react-native-picker/picker
+npm install react-native-viewport-units --save
+npm install react-native-css-vh-vw
+npm i react-native-alert-async
+npm install react-native-dialog
+npm install react-native-prompt
+npx expo install expo-camera
+expo install expo-file-system or npm install expo-file-system --legacy-peer-deps
+npm install react-native-loading-spinner-overlay
+npx expo install expo-image-picker --legacy-peer-deps
+npm install expo-asset expo-splash-screen --legacy-peer-deps
+npx expo install expo-image-manipulator
+npx expo install @react-native-community/netinfo
+npx expo install react-native-get-random-values
+npx expo install expo-device
+
+------------STARTING LOCAL SERVER IN C#------------
+dotnet run --urls=http://0.0.0.0:5000
+
+------------TO DO------------
+Create json file linked to local storage to activate certain user preferences like app theme (dark/light)...
+Get someone's phone to refactor code to fit both android and ios.
+Fix text to remove user text size example  <Text
+                                             style={styles.title}
+                                             add this --> allowFontScaling={false}>
+                                             PRO MANAGER</Text> or use any other method to match sizes across all devices.
