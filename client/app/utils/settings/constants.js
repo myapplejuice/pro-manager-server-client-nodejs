@@ -1,0 +1,15 @@
+export const routes = {
+  SPLASH: '/',
+  INTRODUCTION: '/screens/authentication/introduction',
+  LOGIN: '/screens/authentication/login',
+  REGISTER: '/screens/authentication/register',
+  RECOVERY: '/screens/authentication/recovery',
+  HOMEPAGE: '/screens/main/homepage',
+  COACHES: '/screens/main/coaches',
+  APPLICATIONS: '/screens/main/applications',
+  PROFILE: '/screens/main/profile',
+  SETTINGS: '/screens/profile/settings',
+  PERSONAL_DETAILS: '/screens/profile/personal-details',
+  PRIVACY: '/screens/profile/privacy',
+  CONTACT: '/screens/profile/contact',
+}
